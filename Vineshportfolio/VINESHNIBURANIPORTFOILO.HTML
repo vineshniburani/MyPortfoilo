@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio - Vinesh Niburani</title>
+    <style>
+       
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f8f9fa;
+            line-height: 1.6;
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        header {
+            background-color: #0056b3; 
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 10%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 18px;
+            margin: 0;
+        }
+
+        section {
+            margin: 40px 10%;
+        }
+
+        section h2 {
+            font-size: 24px;
+            border-bottom: 2px solid #ccc;
+            padding-bottom: 10px;
+            color: #0056b3;
+        }
+
+        
+        .profile-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+
+        
+        .circular-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover; 
+            border: 2px solid #0056b3; 
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        .circular-img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        table {
+            margin: 40px auto;
+            border-collapse: collapse;
+            width: 90%;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #0056b3;
+            color: #fff;
+        }
+
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+
+        tfoot td {
+            font-weight: bold;
+            background-color: #f1f1f1;
+        }
+
+        
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        img {
+            border-radius: 8px;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 280px;
+            border: 1px solid #ddd;
+        }
+
+        
+        .btn-skill {
+            display: inline-block;
+            padding: 12px 25px;
+            background-color: #0056b3;
+            color: #fff;
+            border-radius: 25px;
+            text-align: center;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .btn-skill:hover {
+            background-color: #004494;
+            transform: scale(1.05);
+        }
+
+        
+        .skills-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .atd:hover{
+            background-color: #0056b3;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio.</h1>
+        <p><b>Vinesh Niburani</b></p>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <p>Hello! My name is Vinesh. I am a student, passionate about technology. Welcome to my professional portfolio page!</p>
+            <div class="profile-container">
+                <img src="./IMG/MYPIC.jpg" alt="Vinesh's Picture" class="circular-img">
+            </div>
+        </section>
+
+        <section>
+            <h2>Details</h2>
+            <p><strong>Age:</strong> 18</p>
+            <p><strong>Location:</strong> Parul University</p>
+            <p><strong>Email:</strong> <a href="gmail:vineshniburani@gmail.com">vineshniburani@gmail.com</a></p>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <p>Here are some of my technical skills:</p>
+            <div class="skills-container">
+                <div class="btn-skill">HTML</div>
+                <div class="btn-skill">CSS</div>
+                <div class="btn-skill">C</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li>
+                    <img src="https://tse3.mm.bing.net/th?id=OIP.dHBkNJB_qL9drov4R6V6jwHaFs&pid=Api&P=0&h=180" alt="Achievement 1" width="150">
+                    <div>
+                        <strong>Achievement 1:</strong> Progress in Data Science and AI technologies.
+                    </div>
+                </li>
+                <li>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.zA3c_XwW9V54FwWa0KrbaQHaFP&pid=Api&P=0&h=180" alt="Achievement 2" width="150">
+                    <div>
+                        <strong>Achievement 2:</strong> Global Certification Course.
+                    </div>
+                </li>
+                <li>
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.rXTmyK3p8I59GQQCAbPwLwHaFP&pid=Api&P=0&h=180" alt="Achievement 3" width="150">
+                    <div>
+                        <strong>Achievement 3:</strong> The creation and widespread adoption of the Internet.
+                    </div>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>HTML Table Example</h2>
+            <table>
+                <caption><strong>Some Projects</strong></caption>
+                <thead>
+                    <tr>
+                        <th>Number</th>
+                        <th>Name</th>
+                        <th>Objective</th>
+                        <th>link</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Animation</td>
+                        <td>To Change image and rotate</td>
+                        <td class="atd"><a href="animation.html">Animation</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Login Page</td>
+                        <td>Uses form tag</td>
+                        <td class="atd"><a href="./login.html">Login</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Website</td>
+                        <td>A basic Website</td>
+                        <td class="atd"><a href="./website.html">Website</a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="4">End of Table</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
+
+        <section>
+            <h2>Glimpses of Parul University</h2>
+            <div class="gallery">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.dzXBpM5eVvykRqpE6BkkFwHaEK&pid=Api&P=0&h=180" alt="Campus View 1">
+                <img src="https://th.bing.com/th/id/OIP.a63xbTMCpG7uEW45REvg-QHaEK?w=297&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Campus View 2">
+                <img src="https://th.bing.com/th/id/OIP.KKdZ99LwPbsU55UIP-87IgAAAA?w=212&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7" alt="Campus View 3">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Vinesh Niburani. All rights reserved.</p>
+        <p>Made with ❤️</p>
+    </footer>
+</body>
+</html>
